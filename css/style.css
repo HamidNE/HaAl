@@ -1,0 +1,379 @@
+@font-face {
+	font-family: "Yekan";
+	src: url(../fonts/Persian/Yekan.eot);
+	src: url(../fonts/Persian/Yekan.eot?#iefix) format("embedded-opentype"), url(../fonts/Persian/Yekan.woff) format("woff"), url(../fonts/Persian/Yekan.ttf) format("truetype"), url(../fonts/Persian/Yekan.svg#BYekan) format("svg");
+	font-weight: normal;
+	font-style: normal
+}
+
+@font-face {
+	font-family: "Lobster";
+	src: url(../fonts/Lobster/Lobster-Regular.ttf) format("truetype");
+	font-weight: normal;
+	font-style: normal
+}
+
+@font-face {
+	font-family: "Roya";
+	src: url(../fonts/Persian/Roya.ttf) format("truetype");
+	font-weight: normal;
+	font-style: normal
+}
+
+@font-face {
+	font-family: "Nazanin";
+	src: url(../fonts/Persian/Nazanin-Regular.ttf) format("truetype");
+	font-weight: normal;
+	font-style: normal
+}
+
+@font-face {
+	font-family: "IranSans";
+	src: url(../fonts/Persian/IranianSans.ttf) format("truetype");
+	font-weight: normal;
+	font-style: normal
+}
+
+html {
+	font-family: "Roboto", "Yekan", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	direction: rtl;
+	text-align: right;
+}
+
+p {
+	direction: rtl;
+	text-align: justify;
+}
+
+.card {
+	border-radius: 5px;
+}
+
+.card-action {
+	border-radius: 0 0 5px 5px;
+}
+
+.card .card-content {
+	border-radius: 5px 5px 0 0;
+}
+
+.card .card-title {
+	font-size: 20px;
+}
+
+.card .card-action {
+	padding: 15px 5px;
+}
+
+.nav-wrapper .brand-logo {
+	font-family: "Lobster";
+	color: #696a6c;
+	font-size: 65px;
+}
+
+.brand-logo img {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.collapsible-body p {
+	padding: 1rem;
+	font-family: "Nazanin";
+	font-size: 20px;
+	direction: rtl;
+	text-align: justify;
+}
+
+code {
+	padding: 2px 4px;
+	font-size: 90%;
+	color: #c7254e;
+	background-color: #f9f2f4;
+	border-radius: 4px;
+	font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.collapsible-body p {
+	padding: 1rem;
+}
+
+.active .collapsible-header {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.active .collapsible-body {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.p_title,
+.collapsible-body .p_title {
+	text-align: center;
+	font-size: 24px;
+	font-family: "Yekan";
+}
+
+.collapsible-body .p_title_r {
+	text-align: right;
+	font-size: 22px;
+	font-family: "Yekan";
+}
+
+#login_title {
+	padding: 3px 0px 3px 0px;
+}
+
+blockquote {
+	text-align: right;
+	border-right: 5px solid #ee6e73;
+	border-left: 0px;
+	padding-right: 1.5rem;
+}
+
+span {
+	text-align: right;
+}
+
+#login_logo {
+	width: 60%;
+}
+
+.collapsible-header {
+	text-align: right;
+}
+
+.collapsible-header i {
+	float: right;
+	margin-left: 1rem;
+}
+
+.container .rooting {
+	direction: rtl;
+	line-height: 40px;
+	padding-right: 15px;
+}
+
+.container .rooting .breadcrumb {
+	font-size: 15px;
+}
+
+.breadcrumb:before {
+	content: '\E5CB';
+}
+
+nav .brand-logo {
+	float: left;
+}
+
+#logo_page2 {
+	margin: 0;
+}
+
+#img_question {
+	margin: 0 auto;
+	width: 80%;
+	display: block;
+	border-radius: 3px;
+}
+
+.input-field {
+	direction: ltr;
+}
+
+blockquote {
+	margin: 5px 0;
+}
+
+td {
+	direction: rtl;
+	text-align: center;
+}
+
+.circle {
+	vertical-align: middle;
+}
+
+table.bordered > thead > tr:last-child,
+table.bordered > tbody > tr:last-child {
+	border-bottom: none;
+}
+
+#listContentBlog {
+	padding: 3px 20px;
+}
+
+.modal .card-content {
+	padding: 5px;
+}
+
+.darkcyan {
+	color: darkcyan;
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+td,
+th {
+	padding: 15px 5px;
+}
+
+#backlogin {
+	background-image: url("images/car.jpg");
+}
+
+#black-link a:not(.btn):not(.btn-large):not(.btn-floating) {
+	color: black;
+}
+
+.rooting {
+	float: none;
+}
+
+.padding {
+	padding: 20px !important;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.paginig {
+	padding: 3px 0;
+	border-radius: 5px;
+}
+
+.paginig ul {
+	margin: 5px 0;
+}
+
+.pagination li.active {
+	background-color: #26a69a;
+}
+
+table thead tr th:first-child {
+	border-top-left-radius: 5px;
+}
+
+table thead tr th:last-child {
+	border-top-right-radius: 5px;
+}
+
+table.striped > tbody > tr > td {
+	border-radius: 5px;
+}
+
+.card .card-image .card-title {
+	right: 0;
+}
+
+.row .col {
+	float: right;
+}
+
+.tabs .tab {
+	text-transform: capitalize;
+}
+
+.select-wrapper span.caret {
+	left: 0;
+	right: initial;
+}
+
+.input-field .prefix ~ input,
+.input-field .prefix ~ textarea,
+.input-field .prefix ~ label,
+.input-field .prefix ~ .validate ~ label,
+.input-field .prefix ~ .autocomplete-content {
+	margin-right: 3rem;
+	margin-left: 0;
+	width: calc(100% - 3rem);
+}
+
+.input-field {
+	direction: rtl;
+}
+
+.material-icons {
+	direction: rtl;
+}
+
+.btn-floating {
+	margin: 0 10px;
+}
+
+.add-practice div blockquote a {
+	height: 48px;
+	font-weight: bolder;
+}
+
+.add-practice div blockquote a i {
+	line-height: 48px;
+	font-weight: bolder;
+	font-size: 26px !important;
+}
+
+.add-practice .card-action .tamrin a {
+	    margin-right: 0;
+}
+
+.add-practice .card-action .tamrin {
+	    margin-bottom: 0;
+}
+
+.khardaly div blockquote {
+	color: #b8c14f;
+	border-right-color: #b8c14f;
+}
+
+.khardaly div button {
+	background-color: #b8c14f;
+}
+
+.khardaly div button:hover {
+	background-color: #ccd46a;
+}
+
+.khardaly div blockquote a i {
+	color: #b8c14f;
+}
+
+.abi-roshan div blockquote {
+	color: #509fd9;
+	border-right-color: #509fd9;
+}
+
+.abi-roshan div button {
+	background-color: #509fd9;
+}
+
+.abi-roshan div button:hover {
+	background-color: #70b4e6;
+}
+
+.abi-roshan div blockquote a i {
+	color: #509fd9;
+}
+.sabz div blockquote {
+	color: #0db7a7;
+	border-right-color: #0db7a7;
+}
+
+.sabz div blockquote a i {
+	color: #0db7a7;
+}
+
+.btn-flat {
+	padding: 0 8px;
+}

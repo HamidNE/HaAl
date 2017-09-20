@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<!--Import Google Icon Font-->
+	<link href="css/Material-Icons.css" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link href="css/materialize.css" rel="stylesheet" type="text/css" media="screen,projection">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /> </head>
+
+<body class="blue-grey lighten-4">
+	<nav class="nav-extended teal lighten-1">
+		<div class="container">
+			<div class="nav-wrapper" id="nav_page2">
+				<a href="#" class="brand-logo">
+					<!--<img id="logo_page2" width="125px" height="50px" src="images/logo2.png">--></a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href=""><i class="material-icons right">search</i>مسابقات</a></li>
+					<li class="active"><a href=""><i class="material-icons right">code</i>سوالات</a></li>
+					<li><a href="page4.html"><i class="material-icons right">class</i>کلاس ها</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href=""><i class="material-icons right">search</i>مسابقات</a></li>
+					<li class="active"><a href=""><i class="material-icons right">code</i>سوالات</a></li>
+					<li><a href="page4.html"><i class="material-icons right">class</i>کلاس ها</a></li>
+					<li><a href="" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a></li>
+				</ul>
+				<br> </div>
+		</div>
+		<div class="nav-wrapper teal lighten-3">
+			<div class="container">
+				<div class="col s12 rooting">
+					<a href="" class="breadcrumb">سوال زرد</a>
+					<a href="" class="breadcrumb">مسابقه</a>
+					<a href="" class="breadcrumb">سوالات</a>
+					<a href="" class="breadcrumb">خانه</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="row">
+			<br>			
+			<div class="col s12 m4 l3">
+				<div class="card hoverable grey lighten-4">
+					<div id="login_title" class="card-content white-text grey lighten-3"> <span class="card-title"><blockquote style="color: #0db7a7;border-right-color: #0db7a7;"><i class="small material-icons right">view_list</i>دسته ها</blockquote></span> </div>
+					<div class="card-action dark-text center">
+						<div class="chip">دانشگاهی</div>
+						<div class="chip">المپیاد</div>
+						<div class="chip">مسابقه</div>
+						<div class="input-field">
+							<select class="container">
+								<option value="" disabled selected>فیلتر تگ ها</option>
+								<option value="1">Option 1</option>
+								<option value="2">Option 2</option>
+								<option value="3">Option 3</option>
+							</select>
+							<a class="waves-effect waves-light btn">اعمال فیلتر</a>
+						</div>
+					</div>
+				</div>
+				<div class="card hoverable grey lighten-4">
+					<div id="login_title" class="card-content white-text grey lighten-3">
+						<span class="card-title"><blockquote style="color: #44c7d4;border-right-color: #44c7d4;"><i class="small material-icons right">grade</i>برترین ها</blockquote></span>
+					</div>
+					<div class="card-action center no-padding">
+						<table class="bordered striped centered">
+							<thead>
+								<tr>
+									<th data-field="id">تعداد حل</th>
+									<th data-field="name">نام</th>
+									<th data-field="price">ردیف</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>75</td>
+									<td>حمید نصر</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>72</td>
+									<td>هادی جعفری</td>
+									<td>2</td>
+								</tr>
+								<tr>
+									<td>65</td>
+									<td>حامد زمانی</td>
+									<td>3</td>
+								</tr>
+								<tr>
+									<td>65</td>
+									<td>حامد زمانی</td>
+									<td>4</td>
+								</tr>
+								<tr>
+									<td>65</td>
+									<td>حامد زمانی</td>
+									<td>5</td>
+								</tr>
+								<tr>
+									<td>65</td>
+									<td>حامد زمانی</td>
+									<td>6</td>
+								</tr>
+								<tr>
+									<td>65</td>
+									<td>حامد زمانی</td>
+									<td>7</td>
+								</tr>
+							</tbody>
+						</table>
+						<table class="grey lighten-3" style="line-height: 20px;border-radius: 0 0 5px 5px;">
+							<tr><td>
+								<div>
+									<a class="right" href=""><i class="small material-icons right">equalizer</i>رتبه بندی کامل</a>
+								</div>								
+							</td></tr>
+						</table>
+					</div>					
+				</div>
+			</div>
+			<div class="col s12 m8 l9">
+				<div class="row" style="margin: 0px;">
+					<div>
+						<div class="card teal hoverable lighten-1">
+							<div class="card-content white-text" style="padding: 10px 0;">
+								<div class="col m4 rooting" style="float: none;">
+									<a href="" class="breadcrumb">مسابقه<i class="material-icons right">class</i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="card hoverable grey lighten-4">
+					<div class="card-content no-padding">
+						<table class="bordered striped centered">
+							<thead>
+								<tr class="grey lighten-2">
+									<th>شناسه<span id="problemset-sort-by-problem_id"></span></th>
+									<th>سؤال</th>
+									<th>برچسب‌ها</th>
+									<th>مسابقه</th>
+									<th title="تعداد افرادی که مسئله را حل کرده‌اند">تعدادحل<span id="problemset-sort-by-solve_count"></span></th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>۴۰۷۰</td>
+									<td> <a href="/problemset/contest/4070/%D8%B3%D8%A4%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%DA%86%D8%A7%D8%B1%D9%84%DB%8C-%D8%AF%D8%B1-%DA%A9%D8%A7%D8%B2%D8%A7%D8%A8%D9%84%D8%A7%D9%86%DA%A9%D8%A7">چارلی در کازابلانکا</a> </td>
+									<td> </td>
+									<td> <a href="/course/assignments/1171/problems/3770">کدکاپ ۲، مسابقه مقدماتی ۲</a> </td>
+									<td>۵</td>
+									<td> <i title="این مسئله را حل نکرده‌اید"></i> </td>
+								</tr>
+								<tr>
+									<td>۴۰۶۹</td>
+									<td> <a href="/problemset/contest/4069/%D8%B3%D8%A4%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%D8%A8%D8%A7-%D8%A2%D8%B1%D8%A7%D9%85%D8%B4-%D8%A8%D8%AE%D9%88%D9%86">با آرامش بخون</a> </td>
+									<td> </td>
+									<td> <a href="/course/assignments/1171/problems/3768">کدکاپ ۲، مسابقه مقدماتی ۲</a> </td>
+									<td>۹۴</td>
+									<td> <i title="این مسئله را حل نکرده‌اید"></i> </td>
+								</tr>
+								<tr>
+									<td>۴۰۶۸</td>
+									<td> <a href="/problemset/contest/4068/%D8%B3%D8%A4%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%D8%AE%D8%B1%D9%85%D8%A7">خرما</a> </td>
+									<td> </td>
+									<td> <a href="/course/assignments/1171/problems/3769">کدکاپ ۲، مسابقه مقدماتی ۲</a> </td>
+									<td>۲۰۶</td>
+									<td> <i title="این مسئله را حل نکرده‌اید"></i> </td>
+								</tr>
+								<tr>
+									<td>۴۰۶۷</td>
+									<td> <a href="/problemset/contest/4067/%D8%B3%D8%A4%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%D8%B3%D8%B1%D8%A7%D8%A8">سراب</a> </td>
+									<td> </td>
+									<td> <a href="/course/assignments/1171/problems/3767">کدکاپ ۲، مسابقه مقدماتی ۲</a> </td>
+									<td>۵۵۰</td>
+									<td> <i title="این مسئله را حل نکرده‌اید"></i> </td>
+								</tr>
+								<tr>
+									<td>۴۰۶۶</td>
+									<td> <a href="/problemset/contest/4066/%D8%B3%D8%A4%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%D9%BE%DB%8C%D8%B4%DA%AF%D9%88%DB%8C%DB%8C-%D8%AE%D8%B1">پیشگویی خر</a> </td>
+									<td> </td>
+									<td> <a href="/course/assignments/1171/problems/3766">کدکاپ ۲، مسابقه مقدماتی ۲</a> </td>
+									<td>۴۳۴</td>
+									<td> <i title="این مسئله را حل نکرده‌اید"></i> </td>
+								</tr>
+								<tr>
+									<td>۴۰۶۵</td>
+									<td> <a href="/problemset/contest/4065/%D8%B3%D8%A4%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%D8%AE%D8%B1-%D8%AF%D8%B1-%DA%86%D9%85%D9%86-%D9%81%D8%B1%D8%A7%D9%88%D9%88%D9%86%D9%87">خر در چمن فراوونه!!</a> </td>
+									<td> </td>
+									<td> <a href="/course/assignments/1171/problems/3765">کدکاپ ۲، مسابقه مقدماتی ۲</a> </td>
+									<td>۷۲۴</td>
+									<td> <i title="این مسئله را حل نکرده‌اید"></i> </td>
+								</tr>
+								<tr>
+									<td>۳۸۲۲</td>
+									<td> <a href="/problemset/contest/3822/%D8%B3%D8%A4%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%D8%BA%D9%88%D8%BA%D8%A7%DB%8C-%D8%B3%D8%AA%D8%A7%D8%B1%DA%AF%D8%A7%D9%86">غوغای ستارگان</a> </td>
+									<td> <span class="new badge center" data-badge-caption="">هوش مصنوعی</span> </td>
+									<td> <a href="/course/assignments/944/problems/3259">رهنماکالج ۲</a> </td>
+									<td>۲</td>
+									<td> <i title="این مسئله را حل نکرده‌اید"></i> </td>
+								</tr>
+								<tr>
+									<td>۳۸۲۱</td>
+									<td> <a href="/problemset/contest/3821/%D8%B3%D8%A4%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%D8%B0%D9%84%D9%87">ذله</a> </td>
+									<td> </td>
+									<td> <a href="/course/assignments/944/problems/3263">رهنماکالج ۲</a> </td>
+									<td>۷</td>
+									<td> <i title="این مسئله را حل نکرده‌اید"></i> </td>
+								</tr>
+								<tr>
+									<td>۳۸۲۰</td>
+									<td> <a href="/problemset/contest/3820/%D8%B3%D8%A4%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D9%87_%D9%85%D8%B1%D8%AF%D9%85%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%D9%87">مردم‌شناسیه</a> </td>
+									<td> </td>
+									<td> <a href="/course/assignments/944/problems/3262">رهنماکالج ۲</a> </td>
+									<td>۳۱</td>
+									<td> <i title="این مسئله را حل نکرده‌اید"></i> </td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				
+				<div class="card-panel hoverable grey lighten-3 paginig">
+					<ul class="pagination center">
+						<li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+						<li class="active"><a href="#!">۱</a></li>
+						<li class="waves-effect"><a href="#!">۲</a></li>
+						<li class="waves-effect"><a href="#!">۳</a></li>
+						<li class="waves-effect"><a href="#!">۴</a></li>
+						<li class="waves-effect"><a href="#!">۵</a></li>
+						<li class="waves-effect"><a href="#!">۶</a></li>
+						<li class="waves-effect"><a href="#!">۷</a></li>
+						<li class="waves-effect"><a href="#!">۸</a></li>
+						<li class="waves-effect"><a href="#!">۹</a></li>
+						<li class="waves-effect"><a href="#!">..</a></li>
+						<li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/MyScript.js"></script>
+</body>
+
+</html>
